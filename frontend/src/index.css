@@ -6,6 +6,9 @@
 
 /* Component styles */
 @import './styles/components/layout.css';
+@import './styles/components/cards.css';
+@import './styles/components/kanban.css';
 
 /* Page styles */
+@import './styles/pages/home.css';
 @import './styles/pages/dashboard.css';
