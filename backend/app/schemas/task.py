@@ -27,7 +27,7 @@ class TaskResponse(BaseModel):
     task that we'll return to the frontend, that might hide any of the sensitive data that we
     don't want to return.
     """
-    id: int
+    id: str
     title: str
     description: Optional[str]
     status: TaskStatus
