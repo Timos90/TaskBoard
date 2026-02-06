@@ -11,11 +11,11 @@ class Config:
     CLERK_PUBLISHABLE_KEY:str = os.getenv("CLERK_PUBLISHABLE_KEY","")
     CLERK_JWKS_URL:str = os.getenv("CLERK_JWKS_URL","")
     CLERK_WEBHOOK_SECRET:str = os.getenv("CLERK_WEBHOOK_SECRET","")
-    
+
     DATABASE_URL:str = os.getenv("DATABASE_URL","")
     FRONTEND_URL:str = os.getenv("FRONTEND_URL","")
 
-    FREE_TIER_MEMBERSHIP_LIMIT: int = 2
+    FREE_TIER_LIMIT: int = 2
     PRO_TIER_MEMBERSHIP_LIMIT: int = 0 # Unlimited
 
 
