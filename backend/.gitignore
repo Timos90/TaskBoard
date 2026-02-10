@@ -8,6 +8,27 @@ wheels/
 
 # Virtual environments
 .venv
-.env
+venv/
+env/
 
+# Environment variables
+.env
+.env.local
+
+# Database
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
 taskboard.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

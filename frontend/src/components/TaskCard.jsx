@@ -1,3 +1,13 @@
+/**
+ * TaskCard - Individual task display component
+ * 
+ * Displays a task with title, description, and optional delete button.
+ * Clickable to edit if onEdit callback is provided.
+ * 
+ * @param {Object} task - Task object with id, title, description
+ * @param {Function} onEdit - Optional callback when task is clicked (for editing)
+ * @param {Function} onDelete - Optional callback when delete button is clicked
+ */
 function TaskCard({task, onEdit, onDelete}) {
     const canEdit = !!onEdit
     const canDelete = !!onDelete

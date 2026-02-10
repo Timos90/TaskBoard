@@ -9,7 +9,10 @@
 @import './styles/components/cards.css';
 @import './styles/components/kanban.css';
 @import './styles/components/modal.css';
+@import './styles/components/badges.css';
 
 /* Page styles */
 @import './styles/pages/home.css';
 @import './styles/pages/dashboard.css';
+@import './styles/pages/auth.css';
+@import './styles/pages/pricing.css';
